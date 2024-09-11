@@ -1,0 +1,30 @@
+/* Estilos para el detalle del producto */
+.item-detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0;
+  }
+  
+  .item-detail img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .item-detail-content {
+    flex: 1;
+    margin-left: 30px;
+  }
+  
+  .item-detail h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .item-detail p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
